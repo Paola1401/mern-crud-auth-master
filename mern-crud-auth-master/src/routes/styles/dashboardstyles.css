@@ -1,0 +1,19 @@
+.dashboard-card {
+    background-color: #f8f9fa; /* Color de fondo claro */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+  }
+  
+  .cyclist {
+    border-left: 5px solid #007bff; /* Color azul para ciclistas */
+  }
+  
+  .judge {
+    border-left: 5px solid #28a745; /* Color verde para jueces */
+  }
+  
+  .organizer {
+    border-left: 5px solid #dc3545; /* Color rojo para organizadores */
+  }

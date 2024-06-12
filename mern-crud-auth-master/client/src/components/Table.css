@@ -1,0 +1,28 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .table th {
+    background-color: #725bda; /* Cambia el color de fondo del encabezado de la tabla */
+    color: white; /* Cambia el color del texto del encabezado de la tabla */
+  }
+  
+  .table td {
+    background-color: #0d7ec9; /* Cambia el color de fondo de las celdas de la tabla */
+    color: #ffffff; /* Cambia el color del texto de las celdas de la tabla */
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #1561c4; /* Cambia el color de fondo de las filas pares */
+  }
+  
+  .table tr:hover {
+    background-color: #dcf70c; /* Cambia el color de fondo cuando se pasa el ratón por encima */
+  }
